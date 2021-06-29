@@ -1,7 +1,4 @@
-const printProfile = profileData => {
-  const {
-    name,
-    company
-  } = profileData;
+const printProfile = function (profileData) {
+  const { name, company } = profileData;
   console.log(`${name} from ${company}`);
 };
